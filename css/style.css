@@ -1,0 +1,42 @@
+body {
+    background: black;
+}
+div {
+    position: absolute;
+}
+
+#character {
+    width: 40px;
+    height: 40px;
+    background: blue;
+    z-index: 95;
+    
+}
+/*Shadow box creation*/
+#overflow{
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, 2);
+    display: none;
+}
+/*first wall*/
+#parede {
+    width: 200px;
+    height: 70px;
+    background: grey;
+    z-index: 1;
+}
+/*Background*/
+#background_basic {
+    width: 950px;
+    height: 750px;
+    left: 0;
+    top: 0;
+    background-color: grey;
+    border: 50px navy solid;
+    z-index: -1;
+    font-size: 400%;
+    line-height: 300px;
+    text-align: center; 
+}
+
+
+
